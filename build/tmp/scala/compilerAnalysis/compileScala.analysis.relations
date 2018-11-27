@@ -1,0 +1,9 @@
+products:
+   src/main/scala/Library.scala -> build/classes/scala/main/ScalaReactJS.class
+binary dependencies:
+   src/main/scala/Library.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/Library.scala -> /Users/jtraverjr/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/Library.scala -> ScalaReactJS
