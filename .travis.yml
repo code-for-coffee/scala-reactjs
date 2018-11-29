@@ -5,8 +5,9 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew build --stacktrace
-  - ./gradlew test --stacktrace
   - nvm install --lts
   - node -v
   - npm -v
+  - npm run build
+  - ./gradlew build --stacktrace
+  - ./gradlew test --stacktrace
