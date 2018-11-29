@@ -1,5 +1,7 @@
 # scala-reactjs
 
+[![Build Status](https://travis-ci.org/code-for-coffee/scala-reactjs.svg?branch=master)](https://travis-ci.org/code-for-coffee/scala-reactjs)
+
 Simple Scala binding for ReactTraining/react-stdio
 
 ## Getting Started
