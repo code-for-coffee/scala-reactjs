@@ -1,4 +1,6 @@
 products:
+   src/main/scala/Library.scala -> build/classes/scala/main/ScalaReactJS$$anonfun$1.class
+   src/main/scala/Library.scala -> build/classes/scala/main/ScalaReactJS$$anonfun$2.class
    src/main/scala/Library.scala -> build/classes/scala/main/ScalaReactJS.class
 binary dependencies:
    src/main/scala/Library.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar
@@ -7,3 +9,5 @@ source dependencies:
 external dependencies:
 class names:
    src/main/scala/Library.scala -> ScalaReactJS
+   src/main/scala/Library.scala -> ScalaReactJS$$anonfun$1
+   src/main/scala/Library.scala -> ScalaReactJS$$anonfun$2

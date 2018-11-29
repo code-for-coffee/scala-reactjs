@@ -16,7 +16,11 @@ class LibrarySuite extends FunSuite {
   test("returns npm info") {
     def library = new ScalaReactJS()
     val npmInfo = library.npmInfo.toString()
-    
+
+    val expected = library.relativeDirectory.toString()
+
+
     assert(!isEmpty(Some(npmInfo)))
+    assert(!isEmpty(Some(expected)))
   }
 }
