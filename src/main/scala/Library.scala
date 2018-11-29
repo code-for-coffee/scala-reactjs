@@ -21,5 +21,13 @@ class ScalaReactJS {
 
   val relativeDirectory = (runShellCommand(Seq("pwd")))._2
   val npmInfo = runShellCommand(Seq("npm", "info", "react-stdio"))._1
-  
+
+  def renderReactComponent(component: String, props: String): (String) = {
+
+    val input = "{\"component\":\"./Dinosaur.js\",\"props\":{\"message\":\"hello\"}}"
+
+    val p = runShellCommand(Seq("echo", input, "|", "react-stdio"))
+    p.toString()
+  }
+
 }

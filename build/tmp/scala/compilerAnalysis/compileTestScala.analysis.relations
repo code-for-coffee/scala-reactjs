@@ -1,6 +1,7 @@
 products:
    src/test/scala/LibrarySuite.scala -> build/classes/scala/test/LibrarySuite$$anonfun$1.class
    src/test/scala/LibrarySuite.scala -> build/classes/scala/test/LibrarySuite$$anonfun$2.class
+   src/test/scala/LibrarySuite.scala -> build/classes/scala/test/LibrarySuite$$anonfun$3.class
    src/test/scala/LibrarySuite.scala -> build/classes/scala/test/LibrarySuite$$anonfun$isEmpty$1.class
    src/test/scala/LibrarySuite.scala -> build/classes/scala/test/LibrarySuite.class
 binary dependencies:
@@ -16,4 +17,5 @@ class names:
    src/test/scala/LibrarySuite.scala -> LibrarySuite
    src/test/scala/LibrarySuite.scala -> LibrarySuite$$anonfun$1
    src/test/scala/LibrarySuite.scala -> LibrarySuite$$anonfun$2
+   src/test/scala/LibrarySuite.scala -> LibrarySuite$$anonfun$3
    src/test/scala/LibrarySuite.scala -> LibrarySuite$$anonfun$isEmpty$1

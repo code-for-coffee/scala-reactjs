@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LibrarySuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-29T03:23:13" hostname="meowington-on-the-go" time="1.966">
+<testsuite name="LibrarySuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-11-29T03:50:18" hostname="meowington-on-the-go" time="2.791">
   <properties/>
-  <testcase name="verifies react-stdio npm package is available via npm info" classname="LibrarySuite" time="1.402"/>
-  <testcase name="returns the file path of the library" classname="LibrarySuite" time="0.563"/>
+  <testcase name="verifies react-stdio npm package is available via npm info" classname="LibrarySuite" time="1.655"/>
+  <testcase name="returns the file path of the library" classname="LibrarySuite" time="0.569"/>
+  <testcase name="compiled react templates return a string" classname="LibrarySuite" time="0.565"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

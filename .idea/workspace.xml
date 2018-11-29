@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847d402a-dd56-45b0-94cb-7eb4ca96b2b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Dinosaur.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
@@ -17,7 +18,9 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis.relations" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Library.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Library.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/components/Dinosaur.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/components/Dinosaur.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/LibrarySuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/LibrarySuite.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,42 +47,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="js" value="4" />
           <entry key="scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JavaScript" value="4" />
           <entry key="Scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="798" />
+          <entry key="scala" value="1270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="798" />
+          <entry key="Scala" value="1270" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/LibrarySuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Library.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+            <state relative-caret-position="300">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#74#125#0" expanded="true" />
@@ -406,8 +411,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/Library.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/LibrarySuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/components/Dinosaur.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/Dinosaur.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/Library.scala" />
       </list>
     </option>
   </component>
@@ -470,6 +477,13 @@
               <item name="scala-reactjs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala-reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-reactjs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -480,10 +494,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543461778483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543463404335" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -536,44 +555,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543458254148</updated>
-      <workItem from="1543458255724" duration="3493000" />
+      <workItem from="1543458255724" duration="5135000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 08m 08s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 09m 10s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 09m 41s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 10m 46s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 11m 24s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 15m 05s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 18m 28s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 18m 37s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibrarySuite - 2018.11.28 at 21h 20m 21s.xml">
-      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="LibrarySuite - 2018.11.28 at 21h 20m 36s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 29m 19s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 32m 11s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 39m 48s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 41m 11s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 41m 40s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 42m 45s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 43m 21s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 43m 39s.xml">
+      <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibrarySuite - 2018.11.28 at 21h 45m 12s.xml">
       <configuration name="LibrarySuite" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3493000" />
+    <option name="totallyTimeSpent" value="5135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="445" y="23" width="995" height="833" extended-state="0" />
@@ -588,7 +607,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32928476" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32928476" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32928476" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -596,7 +615,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994602" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -656,35 +675,61 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/LibrarySuite.scala</url>
-          <line>13</line>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/LibrarySuite.scala</url>
-          <line>12</line>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/Library.scala</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/Library.scala</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/LibrarySuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Dinosaur.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/components/Dinosaur.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Library.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+        <state relative-caret-position="300">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#74#125#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/LibrarySuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>

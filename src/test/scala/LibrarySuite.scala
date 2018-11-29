@@ -19,4 +19,10 @@ class LibrarySuite extends FunSuite {
     val expected = library.relativeDirectory.toString()
     assert(!isEmpty(Some(expected)))
   }
+
+  test("compiled react templates return a string") {
+    def library = new ScalaReactJS()
+    val expected = library.renderReactComponent("Dinosaur.js", "")
+    assert(!isEmpty(Some(expected)))
+  }
 }
