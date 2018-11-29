@@ -13,7 +13,7 @@ class ScalaReactJS {
 
   def someLibraryMethod(): Boolean = true
 
-  def runCommand(cmd: Seq[String]): (Int, String, String) = {
+  def runShellCommand(cmd: Seq[String]): (Int, String, String) = {
     val stdoutStream = new ByteArrayOutputStream
     val stderrStream = new ByteArrayOutputStream
     val stdoutWriter = new PrintWriter(stdoutStream)
@@ -27,7 +27,7 @@ class ScalaReactJS {
 
   val npmInfo = npmInfoTask.exitValue
 
-  val relativeDirectory = (runCommand(Seq("pwd")))
+  val relativeDirectory = (runShellCommand(Seq("pwd")))
 
 
 }
