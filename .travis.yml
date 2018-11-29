@@ -7,3 +7,6 @@ jdk:
 script:
   - ./gradlew build --stacktrace
   - ./gradlew test --stacktrace
+  - nvm install --lts
+  - node -v
+  - npm -v
