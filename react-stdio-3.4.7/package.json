@@ -1,0 +1,37 @@
+{
+  "name": "react-stdio",
+  "version": "3.4.7",
+  "description": "Render React.js components on any backend",
+  "author": "Michael Jackson",
+  "license": "MIT",
+  "bin": {
+    "react-stdio": "./modules/cli.js"
+  },
+  "files": [
+    "modules/cli.js",
+    "modules/index.js"
+  ],
+  "preferGlobal": true,
+  "repository": "ReactTraining/react-stdio",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "test": "jest"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "event-stream": "3.3.4",
+    "invariant": "^2.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "pkg": "^4.3.4"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "__tests__/mocks"
+    ]
+  }
+}
