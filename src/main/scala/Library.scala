@@ -7,11 +7,6 @@ import scala.sys.process._
 
 class ScalaReactJS {
   private val REACT_STDIO_PATH = "/react-stdio-3.4.7"
-  private val PROCESS_BUILDER = Process("npm info react-stdio")
-
-  private val npmInfoTask = PROCESS_BUILDER.run
-
-  def someLibraryMethod(): Boolean = true
 
   def runShellCommand(cmd: Seq[String]): (Int, String, String) = {
     val stdoutStream = new ByteArrayOutputStream
@@ -24,10 +19,7 @@ class ScalaReactJS {
     (exitValue, stdoutStream.toString, stderrStream.toString)
   }
 
-
-  val npmInfo = npmInfoTask.exitValue
-
-  val relativeDirectory = (runShellCommand(Seq("pwd")))
-
-
+  val relativeDirectory = (runShellCommand(Seq("pwd")))._2
+  val npmInfo = runShellCommand(Seq("npm", "info", "react-stdio"))._1
+  
 }

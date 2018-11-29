@@ -8,19 +8,15 @@ import org.scalatest.junit.JUnitRunner
 class LibrarySuite extends FunSuite {
   def isEmpty(sOpt: Option[String]) = sOpt.forall(_.trim.isEmpty)
 
-  test("someLibraryMethod is always true") {
+  test("verifies react-stdio npm package is available via npm info") {
     def library = new ScalaReactJS()
-    assert(library.someLibraryMethod)
+    val expected = library.npmInfo.toString()
+    assert(!isEmpty(Some(expected)))
   }
 
-  test("returns npm info") {
+  test("returns the file path of the library") {
     def library = new ScalaReactJS()
-    val npmInfo = library.npmInfo.toString()
-
     val expected = library.relativeDirectory.toString()
-
-
-    assert(!isEmpty(Some(npmInfo)))
     assert(!isEmpty(Some(expected)))
   }
 }

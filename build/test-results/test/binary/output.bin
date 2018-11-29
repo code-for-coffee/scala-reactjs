@@ -1,84 +1,0 @@
-
-u[4m[1m[32mreact-stdio[39m@[32m3.4.6[39m[22m[24m | [32mMIT[39m | deps: [36m5[39m | versions: [33m28[39m
-*Render React.js components on any backend
->[36mhttps://github.com/ReactTraining/react-stdio#readme[39m
-
-bin: [33mreact-stdio[39m
-
-dist
-R.tarball [36mhttps://registry.npmjs.org/react-stdio/-/react-stdio-3.4.6.tgz[39m
-<.shasum: [33m4edc614cdd4a935b2640e1b7c087ba3be528afdb[39m
-v.integrity: [33msha512-nyDrVjSlnpzG17FdofyOP6LxFw/4w/s+AFGRE0X/baimhJjp3t4E6O2ogg0JmZJq9kdrtCUaff+zKEHlG9+ebQ==[39m
- .unpackedSize: [33m7.9[39m kB
-
-dependencies:
-[33mJSONStream[39m: ^1.0.7
-[33mevent-stream[39m: ^3.3.2
-[33minvariant[39m: ^2.2.0
-[33mreact-dom[39m: ^16.2.0
-[33mreact[39m: ^16.2.0
-
-maintainers:
-6- [33mmjackson[39m <[36mmjijackson@gmail.com[39m>
-
-dist-tags:
-![1m[32mlatest[39m[22m: 3.4.6
-$[1m[32mnext[39m[22m: 3.4.0-rc.8
-
-Spublished [33m9 months ago[39m by [33mmjackson[39m <[36mnpm@mjackson.me[39m>
-
-u[4m[1m[32mreact-stdio[39m@[32m3.4.6[39m[22m[24m | [32mMIT[39m | deps: [36m5[39m | versions: [33m28[39m
-*Render React.js components on any backend
->[36mhttps://github.com/ReactTraining/react-stdio#readme[39m
-
-bin: [33mreact-stdio[39m
-
-dist
-R.tarball [36mhttps://registry.npmjs.org/react-stdio/-/react-stdio-3.4.6.tgz[39m
-<.shasum: [33m4edc614cdd4a935b2640e1b7c087ba3be528afdb[39m
-v.integrity: [33msha512-nyDrVjSlnpzG17FdofyOP6LxFw/4w/s+AFGRE0X/baimhJjp3t4E6O2ogg0JmZJq9kdrtCUaff+zKEHlG9+ebQ==[39m
- .unpackedSize: [33m7.9[39m kB
-
-dependencies:
-[33mJSONStream[39m: ^1.0.7
-[33mevent-stream[39m: ^3.3.2
-[33minvariant[39m: ^2.2.0
-[33mreact-dom[39m: ^16.2.0
-[33mreact[39m: ^16.2.0
-
-maintainers:
-6- [33mmjackson[39m <[36mmjijackson@gmail.com[39m>
-
-dist-tags:
-![1m[32mlatest[39m[22m: 3.4.6
-$[1m[32mnext[39m[22m: 3.4.0-rc.8
-
-Spublished [33m9 months ago[39m by [33mmjackson[39m <[36mnpm@mjackson.me[39m>
-
-u[4m[1m[32mreact-stdio[39m@[32m3.4.6[39m[22m[24m | [32mMIT[39m | deps: [36m5[39m | versions: [33m28[39m
-*Render React.js components on any backend
->[36mhttps://github.com/ReactTraining/react-stdio#readme[39m
-
-bin: [33mreact-stdio[39m
-
-dist
-R.tarball [36mhttps://registry.npmjs.org/react-stdio/-/react-stdio-3.4.6.tgz[39m
-<.shasum: [33m4edc614cdd4a935b2640e1b7c087ba3be528afdb[39m
-v.integrity: [33msha512-nyDrVjSlnpzG17FdofyOP6LxFw/4w/s+AFGRE0X/baimhJjp3t4E6O2ogg0JmZJq9kdrtCUaff+zKEHlG9+ebQ==[39m
- .unpackedSize: [33m7.9[39m kB
-
-dependencies:
-[33mJSONStream[39m: ^1.0.7
-[33mevent-stream[39m: ^3.3.2
-[33minvariant[39m: ^2.2.0
-[33mreact-dom[39m: ^16.2.0
-[33mreact[39m: ^16.2.0
-
-maintainers:
-6- [33mmjackson[39m <[36mmjijackson@gmail.com[39m>
-
-dist-tags:
-![1m[32mlatest[39m[22m: 3.4.6
-$[1m[32mnext[39m[22m: 3.4.0-rc.8
-
-Spublished [33m9 months ago[39m by [33mmjackson[39m <[36mnpm@mjackson.me[39m>
