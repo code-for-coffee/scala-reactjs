@@ -6,8 +6,17 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class LibrarySuite extends FunSuite {
+  def isEmpty(sOpt: Option[String]) = sOpt.forall(_.trim.isEmpty)
+
   test("someLibraryMethod is always true") {
     def library = new ScalaReactJS()
     assert(library.someLibraryMethod)
+  }
+
+  test("returns npm info") {
+    def library = new ScalaReactJS()
+    val npmInfo = library.npmInfo.toString()
+    
+    assert(!isEmpty(Some(npmInfo)))
   }
 }
